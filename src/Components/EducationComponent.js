@@ -28,7 +28,6 @@ const years = [
   "2014",
   "2013",
 ];
-
 const EducationComponent = (props) => {
   const [loading, setLoading] = useState(false);
   const {
@@ -52,8 +51,6 @@ const EducationComponent = (props) => {
       props.setTab(props.tab + 1);
     }, 1000);
   };
-
-  // console.log(props.educationInfo, errors);
 
   return (
     <Paper className="education-paper" elevation={3}>

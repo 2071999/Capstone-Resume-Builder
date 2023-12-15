@@ -37,8 +37,6 @@ const PreviewComponent = (props) => {
     }
   };
 
-  // console.log(props.initialPersonalInfoState);
-
   const handleSave = () => {
     if (resumeName.length === 0) {
       setError("*Please fill this field");
@@ -53,7 +51,7 @@ const PreviewComponent = (props) => {
           setLoading(false);
           //Saving the user data in localstorage
           let resumes = window.localStorage.getItem("resumes");
-          // console.log(resumes);
+         
           if (resumes) {
             let newResumes = JSON.parse(resumes);
 

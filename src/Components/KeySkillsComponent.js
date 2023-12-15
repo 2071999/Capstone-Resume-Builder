@@ -27,9 +27,9 @@ function KeySkillsComponent(props) {
   } = useForm();
 
   const handlePreview = (data) => {
-    // console.log("data",data);
+  
     setLoading(true);
-    // props.onEditSkill(Object.values(data));
+   
 
     setTimeout(() => {
       setLoading(false);
@@ -51,8 +51,6 @@ function KeySkillsComponent(props) {
 
     props.onEditSkill(newSkills);
   };
-
-  // console.log(props.skills, errors);
 
   return (
     <Paper elevation={3} className="key-skills-paper">

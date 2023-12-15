@@ -1,46 +1,43 @@
 # Resume Builder
-This is a web application that allows users to create a professional-looking resume by filling out a simple form. The application is built using React JS with Redux for state management, and Material UI for design and styling.
 
-
+This web application enables users to effortlessly create professional resumes by completing a straightforward form. Built with React JS, Redux for state management, and styled using Material UI for a sleek design.
 
 ## Features
 
-- User-friendly form for entering personal details, work experience, education, skills, and more.
-- Option to upload a photo and choose from a range of templates for a unique look.
-- Material UI design for a modern and consistent look across all devices.
-- Preview and download completed resumes in PDF format.
-
+- **User-friendly Form:** Easily input personal details, work experience, education, skills, etc.
+- **Template Selection:** Choose from a range of templates for a personalized touch.
+- **Material UI Design:** Modern and responsive design across devices.
+- **Preview and Download:** View and download completed resumes in PDF format.
 
 ## Installation
 
-To install and run this application on your local machine, follow these steps:
+To run this application locally, follow these steps:
 
-i. Clone this repository using `git clone https://github.com/Chirag-Berde/resume-builder`
+1. Clone this repository: `git clone https://github.com/2071999/Capstone-Resume-Builder.git
+2. Navigate to the project directory: `cd ./Project name`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open `http://localhost:3000` in your browser.
 
-ii. Navigate to the project directory using `cd resume-builder`
-
-iii. Install dependencies using `npm install`
-
-iv. Start the development server using `npm Start`
-
-v. Open `http://localhost:3000` on your browser
- 
-
-
-
-    
 ## Usage
 
-To use this application simply begin filling out the form with your information. You can save your progress and come back to it later, and preview your resume at any time to see how it will look to potential employers. When you are ready, you can download your completed resume as a PDF format, ready to share with recruiters and hiring managers.
-
+Start by filling out the form with your information. Save progress and preview your resume at any time. Download the completed resume as a PDF when ready to share with recruiters and hiring managers.
 
 ## Contributors
 
-This project was created by Chirag berde as part of AlmaBetter Web 2.0 & 3.0 Enthusiast. Contributions are  always welcome! If you would like to contribute, please follow the standard Github workflow:
+- **Tapan Sathawara** - Project Creator
+
+Contributions are welcome! Follow the standard GitHub workflow:
 
 1. Fork this repository.
-2. Create a new branch with a descriptive name (`git checkout -b feature/my-new-feature`)
-3. Make your changes.
-4. Test your changes to make sure everything works as expected.
-5. Submit a pull request with a detailed description of your changes.
+2. Create a new branch (`git checkout -b feature/my-new-feature`).
+3. Make changes and test thoroughly.
+4. Submit a pull request with a detailed description of your changes.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Note:** This project was created as part of the AlmaBetter Capstone project.

@@ -1,7 +1,6 @@
 import { Button, CircularProgress } from "@mui/material";
 import React from "react";
 import "../Styles/BackNextBtnComponent.css";
-
 const BackNextBtnComponent = (props) => {
   return (
     <div className="back-next-btn-cont">
@@ -24,5 +23,4 @@ const BackNextBtnComponent = (props) => {
     </div>
   );
 };
-
 export default BackNextBtnComponent;
